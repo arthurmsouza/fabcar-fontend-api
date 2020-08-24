@@ -52,12 +52,7 @@ app.get('/api/query', async function (req, res) {
         var obj = JSON.parse(result)
         res.json(obj)
 
-        // FIXME:
-        // res.status(200).json({response: result.toString()});
-        // res.end(JSON.stringify(result));
-
-        // res.status(200).send(obj);
-        // res.end(JSON.stringify(result));
+    
 });
 
 // Query car handle
